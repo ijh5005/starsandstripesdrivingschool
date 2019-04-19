@@ -2,4 +2,9 @@
   display: flex;
   background-color: #ff5a5e;
   color: #fff;
+  overflow: hidden;
+}
+
+#flag {
+  font-size: 2em;
 }

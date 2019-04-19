@@ -22,7 +22,6 @@
 #startBtn {
   width: 9em;
   background-color: #fff;
-  color: #ff5a5e;
   font-size: 1.4em;
   font-weight: 900;
   display: flex;
@@ -30,4 +29,9 @@
   align-items: center;
   margin-top: 2.8em;
   border-radius: 0.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #ff5a5e;
 }

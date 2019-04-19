@@ -1,4 +1,59 @@
 #rightSide {
   height: 100vh;
   width: 50vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  line-height: 0.8;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.letter {
+  line-height: 1;
+  margin: 0;
+  line-height: 0.6;
+  width: 1.8em;
+  text-align: center;
+  text-shadow: 10px 10px #FF6F72;
+  color: #FF6368;
+  -webkit-text-stroke: 1px #ffbfc0;
+  font-weight: 900;
+  font-size: 25em;
+  letter-spacing: -0.05em;
+}
+
+.one {
+  color: #FF6368;
+}
+
+.two {
+  color: #FE6A6E;
+}
+
+.three {
+  color: #FF7276;
+}
+
+.four {
+  color: #FF6C70;
+}
+
+.five {
+  color: #FF7478;
+}
+
+.six {
+  color: #FF767A;
+}
+
+.up {
+  position: relative;
+  top: -40px;
 }
