@@ -1,4 +1,33 @@
 #bottom {
   height: 60%;
   width: 100%;
+  padding-left: 8em;
+}
+
+#title {
+  line-height: 1;
+  font-size: 5.4em;
+  margin: 0;
+  font-weight: 900;
+}
+
+.minitext {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: 1em;
+  width: 20em;
+  line-height: 1.4;
+}
+
+#startBtn {
+  width: 9em;
+  background-color: #fff;
+  color: #ff5a5e;
+  font-size: 1.4em;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.8em;
+  border-radius: 0.1em;
 }

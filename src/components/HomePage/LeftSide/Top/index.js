@@ -3,7 +3,7 @@ import "./index.css";
 
 const Top = () => {
   return (
-    <div id="top">Top</div>
+    <div id="top"></div>
   )
 }
 
