@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import RightSide from "./RightSide";
+import LeftSide from "./LeftSide";
 import "./index.css";
 
 const HomePage = () => {
-  return (
-    <div>Home Page</div>
-  )
+  return (<div id="homePage">
+    <LeftSide />
+    <RightSide />
+  </div>)
 }
 
 export default HomePage;
