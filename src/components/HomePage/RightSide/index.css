@@ -25,8 +25,10 @@
   color: #FF6368;
   -webkit-text-stroke: 1px #ffbfc0;
   font-weight: 900;
-  font-size: 25em;
+  font-size: 42vh;
   letter-spacing: -0.05em;
+  position: relative;
+  left: -2vw;
 }
 
 .one {
