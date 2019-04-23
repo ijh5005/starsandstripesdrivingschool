@@ -1,67 +1,66 @@
-.left{
-    width:30vw;
+.left {
+	width: 30vw;
+	margin: 0 auto;
+	text-align: right;
 }
 
-.right{
-    width:40vw;
-  
-    
-      
+.right {
+	width: 50vw;
 }
 
-.images{
-    width:100%;
-    height:100%;
-    margin:10px;
-    animation-duration: 2s;
-    animation-delay: 1s;
+.images {
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	animation-duration: 2s;
+	animation-delay: 1s;
 }
 
-.description{
-    color: #a61d55;
-    font-size: 1.8vw;
-    line-height: 1.5;
-    color: #a61d55;
-    font-style: italic;
-    line-height: 1.5;
+.description {
+	color: #a61d55;
+	font-size: 1.8vw;
+	line-height: 1.5;
+	color: #a61d55;
+	font-style: italic;
+	line-height: 1.5;
+	text-align: center;
 }
 
-.header{
-    font-weight: 900;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 3.7vw;
-    line-height: 1.1;
-    -webkit-letter-spacing: -1.4px;
-    -moz-letter-spacing: -1.4px;
-    -ms-letter-spacing: -1.4px;
-    letter-spacing: -1.4px;
-    margin-bottom: 0.2em;
-    z-index: 10;
-    color: #a61d55;
-   
+.header {
+	font-weight: 900;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 3.7vw;
+	line-height: 1.1;
+	-webkit-letter-spacing: -1.4px;
+	-moz-letter-spacing: -1.4px;
+	-ms-letter-spacing: -1.4px;
+	letter-spacing: -1.4px;
+	margin-bottom: 0.2em;
+	z-index: 10;
+	color: #a61d55;
+	text-align: center;
 }
 
-.container{
-    width:100vw;
-    height:70vh;
-    text-align:center;
-    background:#FDFAFB
-
+.container {
+	width: 100vw;
+	height: 70vh;
+	text-align: center;
+	background: #FDFAFB
 }
 
-.prev{
-    display: inline-block;
-    position:absolute;
-    bottom:0;
-    font-size: 15px;
-    z-index: 100;
-    padding: 16px 24px;
-    margin-left: 24px;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    border-radius: 2px;
-    font-weight: 400;
-    background: #FDFAFB;
-    color: #a61d55;
-    border: 1px solid transparent;
+.prev {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	font-size: 15px;
+	z-index: 100;
+	padding: 16px 24px;
+	margin-left: 24px;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: 400;
+	background: #FDFAFB;
+	color: #a61d55;
+	border: 1px solid transparent;
 }
