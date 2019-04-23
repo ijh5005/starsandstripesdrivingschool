@@ -1,14 +1,14 @@
 #bottom {
   height: 60%;
   width: 100%;
-  padding-left: 8em;
+  padding-left: 7em;
 }
 
 #title {
   line-height: 1;
-  font-size: 11vh;
+  font-size: 9vh;
   margin: 0;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .minitext {
