@@ -1,0 +1,47 @@
+
+
+.logoText{
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 1rem;
+    line-height: 50px;
+    font-family: 'Raleway', sans-serif;
+    color:#000;
+    margin-left:60px;
+    text-align: right;
+}
+nav{
+    box-shadow: none;
+}
+li{
+    height:20px;
+    line-height: 20px;
+    margin:5px;
+    font:400 18px/1.7 Cereal,-apple-system,BlinkMacSystemFont,Arial,sans-serif
+}
+.links:hover{
+    transition: border-color .15s ease;
+    border-bottom: 1px solid lightgray;
+    background: white
+
+}
+
+nav a {
+font-family: 'Raleway', sans-serif;
+color:darkgray;
+border-bottom:1px solid transparent;
+}
+ul{
+    position: relative;
+    top:25px;
+}
+
+
+
+.logo{
+    height:50px;
+    width:50px;
+    position:absolute;
+    top:0;
+}
+
