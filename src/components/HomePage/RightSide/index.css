@@ -22,13 +22,20 @@
   width: 1.8em;
   text-align: center;
   text-shadow: 10px 10px #FF6F72;
-  color: #FF6368;
   -webkit-text-stroke: 1px #ffbfc0;
   font-weight: 900;
   font-size: 45vh;
   letter-spacing: -0.05em;
   position: relative;
   left: -2vw;
+}
+
+.letter > span {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  transition: all 1.2s, opacity 1.8s;
+  transition-timing-function: cubic-bezier(.25,.29,.53,.9);
 }
 
 .one {
@@ -58,4 +65,34 @@
 .up {
   position: relative;
   top: -40px;
+}
+
+.letter > span.down {
+  opacity: 0;
+  color: #ffcbcc;
+  text-shadow: 10px 10px #ff5a5e;
+}
+
+.one.down {
+  top: 200px;
+}
+
+.two.down {
+  top: 380px;
+}
+
+.three.down {
+  top: 300px;
+}
+
+.four.down {
+  top: 300px;
+}
+
+.five.down {
+  top: 400px;
+}
+
+.six.down {
+  top: 210px;
 }
