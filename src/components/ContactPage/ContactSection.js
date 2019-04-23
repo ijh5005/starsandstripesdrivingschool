@@ -7,11 +7,16 @@ const ContactSection = ({ title, text, img }) => {
         <div className="left">
           <span className="header animated zoomInUp">{title}</span>
           <p className="description animated zoomIn">{text}</p>
+
+        
+        
         </div>
 
         <div className="right" id="right">
           <img className="images animated fadeInRight" src={img} />
         </div>
+
+       
       </div>
     </>
   );
