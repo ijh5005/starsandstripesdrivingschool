@@ -34,32 +34,42 @@
   position: relative;
   top: 0;
   opacity: 1;
-  transition: all 1.2s, opacity 1.8s;
-  transition-timing-function: cubic-bezier(.25,.29,.53,.9);
+  transition-timing-function: cubic-bezier(0,.86,0,1);
 }
 
 .one {
   color: #FF6368;
+  transition: top 2.4s, color 3s, opacity 1s;
 }
 
 .two {
   color: #FE6A6E;
+  transition: top 1.4s, color 3s, opacity 1s;
+  transition-delay: 1s;
 }
 
 .three {
   color: #FF7276;
+  transition: top 1.8s, color 3s, opacity 1s;
+  transition-delay: 0.6s;
 }
 
 .four {
   color: #FF6C70;
+  transition: top 2.2s, color 3s, opacity 1s;
+  transition-delay: 0.2s;
 }
 
 .five {
   color: #FF7478;
+  transition: top 1.9s, color 3s, opacity 1s;
+  transition-delay: 0.5s;
 }
 
 .six {
   color: #FF767A;
+  transition: top 1.7s, color 3s, opacity 1s;
+  transition-delay: 0.7s;
 }
 
 .up {
@@ -74,25 +84,25 @@
 }
 
 .one.down {
-  top: 200px;
+  top: 300px;
 }
 
 .two.down {
-  top: 380px;
+  top: 480px;
 }
 
 .three.down {
-  top: 300px;
-}
-
-.four.down {
-  top: 300px;
-}
-
-.five.down {
   top: 400px;
 }
 
+.four.down {
+  top: 400px;
+}
+
+.five.down {
+  top: 500px;
+}
+
 .six.down {
-  top: 210px;
+  top: 310px;
 }
