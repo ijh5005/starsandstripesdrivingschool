@@ -5,9 +5,9 @@ import logo from "./starslogo.png";
 let Navbar = () => {
   return (
     <nav className="white">
-  <div class="topnav">
-  <a class="active" href="#home"> <img className="logo" src={logo}/></a>
-  <div class="linksright">
+  <div className="topnav">
+  <a className="active" href="#home"> <img className="logo" src={logo}/></a>
+  <div className="linksright">
     <a href="/">Home</a>
     <a  href="/contact">Contact</a>
     <a  href="/review">Reviews</a>
