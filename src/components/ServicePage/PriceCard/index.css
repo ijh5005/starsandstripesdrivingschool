@@ -1,0 +1,62 @@
+.priceCardContainer {
+  width: 76vw;
+  margin: 0 auto;
+}
+
+.priceCard {
+  position: relative;
+  margin: 54px;
+  margin-left: 0;
+  height: 28em;
+  width: 21em;
+  background-color: #222;
+  border-radius: 0.2em;
+  background: rgb(255,90,95);
+  background: radial-gradient(circle, rgba(255,90,95,1) 88%, rgba(255,255,255,1) 100%);
+  background: rgb(255,90,95);
+  background: radial-gradient(circle, rgba(255,90,95,1) 60%, rgba(255,255,255,1) 100%);
+  background: rgb(255,90,95);
+  background: linear-gradient(90deg, rgba(255,90,95,1) 46%, rgba(255,255,255,1) 100%);
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgba(255,90,95,1) 100%);
+}
+
+.cardImg {
+  color: #fff;
+  height: 9em;
+  width: 5em;
+  position: absolute;
+  top: 0em;
+  left: -1em;
+  font-size: 2em;
+  opacity: 0.2;
+}
+
+.cardPrice {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3em;
+  padding-top: 6em;
+}
+
+.cardPrice p {
+  color: #fff;
+  font-size: 4em;
+  margin: 0;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.small {
+  font-size: 0.4em;
+}
+
+.listHeading {
+  color: #fff;
+  margin-left: 2em;
+  font-size: 2.4em;
+}
+
+li {
+  font-size: 1.2em;
+}
