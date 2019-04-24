@@ -10,7 +10,7 @@
 	top: 15%;
 	-webkit-animation: slide 0.5s forwards;
 	-webkit-animation-delay: .5s;
-	animation: slide .5s forwards;
+	animation: slide 1s forwards;
 	animation-delay: 1s;
 	border-right: 4px;
 	border-style: solid;
