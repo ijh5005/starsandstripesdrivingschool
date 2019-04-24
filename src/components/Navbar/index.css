@@ -28,9 +28,12 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1vw;
   height: 20px;
   line-height: 20px;
+  padding-left:0;
+  padding-right:0;
+  margin:10px;
 }
 
 .topnav a:hover {
@@ -48,10 +51,7 @@
   color: #424242;
   margin:8px;
   
+  
  
-}
-
-a{
-  font:400 13.5px/1.5 Cereal,-apple-system,BlinkMacSystemFont,Arial,sans-serif
 }
 
