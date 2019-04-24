@@ -20,6 +20,7 @@
 .topnav {
     background-color: white;
     overflow: hidden;
+		height: 5em;
 }
 
 .topnav a {
@@ -28,7 +29,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 13px;
   height: 20px;
   line-height: 20px;
   padding-left:0;
@@ -40,8 +41,8 @@
   background-color: #ddd;
   background:white;
   border-bottom: 1px solid lightgray;
- 
-  
+
+
 }
 
 
@@ -49,9 +50,5 @@
   float: right;
   font-family: 'Raleway', sans-serif;
   color: #424242;
-  margin:8px;
-  
-  
- 
+  margin-right: 15vw;
 }
-

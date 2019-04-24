@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 import logo from "./starslogo.png";
 
@@ -7,10 +8,10 @@ let Navbar = () => {
     <div className="topnav">
       <a className="active" href="#home"> <img className="logo" src={logo}/></a>
       <div className="linksright">
-        <a href="/">Home</a>
-        <a href="/contact">Contact</a>
-        <a href="/review">Reviews</a>
-        <a href="/service">Services</a>
+        <Link to="/">Home</Link>
+        <Link to="/service">Services</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/review">Reviews</Link>
       </div>
     </div>
   </nav>);
