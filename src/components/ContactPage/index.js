@@ -10,10 +10,6 @@ let images = [map];
 const ContactPage = () => {
   return (
     <>
-      <Navbar />
-      <br />
-      <br />
-
       {contactInfo.map((element, i) => (
         <ContactSection
           title={element.title}

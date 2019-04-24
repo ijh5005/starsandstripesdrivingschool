@@ -5,9 +5,7 @@ import Navbar from '../Navbar'
 const ReviewPage = () => {
   return (
     <>
-    <Navbar/>
     <div>Review Page</div>
-
     </>
   )
 }
