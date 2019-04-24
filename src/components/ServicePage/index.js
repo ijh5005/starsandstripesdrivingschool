@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
+import Navbar from '../Navbar';
+import Heading from './Heading';
 import "./index.css";
-import Navbar from '../Navbar'
 
 const ServicePage = () => {
-  return (
-    <>
+  return (<>
     <Navbar/>
-    <div>Service Page</div>
-
-    </>
-  )
+    <Heading />
+  </>)
 }
 
 export default ServicePage;

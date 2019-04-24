@@ -1,0 +1,31 @@
+.headingContainer {
+  height: 50vh;
+  width: 76vw;
+  margin: 0 auto;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.smallText {
+  font-size: 4.4em;
+  width: 8em;
+  font-weight: 800;
+  margin-bottom: 54px;
+  line-height: 1;
+}
+
+.largeText {
+  font-size: 16em;
+  margin-bottom: 54px;
+  position: absolute;
+  right: -140px;
+  bottom: 54px;
+  margin: 0;
+  font-weight: 800;
+  color: #ff5a5f;
+  line-height: 1;
+  letter-spacing: -10px;
+}
