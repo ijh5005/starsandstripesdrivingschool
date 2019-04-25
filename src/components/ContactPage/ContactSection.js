@@ -22,11 +22,6 @@ const ContactSection = ({ title, text, img }) => {
         
         </div>
     
-        
-          
-        
-
-       
       </div>
     </>
   );

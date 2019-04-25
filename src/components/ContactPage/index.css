@@ -12,11 +12,32 @@
 	-webkit-animation-delay: .5s;
 	animation: slide 1s forwards;
 	animation-delay: 1s;
-	border-right: 4px;
-	border-style: solid;
-	border-image: linear-gradient( red, rgba(0, 0, 0, 0)) 1 100%;
+	
+
 	opacity: 0;
+
+
 }
+
+.right::before {
+	content: "";
+	height: 100%;
+	width: 2px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: linear-gradient( red, rgba(0, 0, 0, 0)) 1 100%;
+	animation: grow 1s forwards;
+  }
+  
+  @keyframes grow {
+	from {
+	  height: 0%;
+	}
+	to {
+	  height: 100%;
+	}
+  }
 
 @-webkit-keyframes slide {
 	100% {
@@ -32,10 +53,9 @@
 }
 
 .description {
-	font-size: 1.7vw;
+	font-size: 1.5vw;
 	line-height: 1.5;
 	color: #a61d55;
-	font-style: italic;
 	line-height: 1.5;
 	padding-left: 20px;
 }
@@ -60,21 +80,7 @@
 	width: 100%;
 	height: 70vh;
 	text-align: center;
+	background:#FDFAFB
+	
 }
 
-.prev {
-	display: inline-block;
-	position: absolute;
-	bottom: 0;
-	font-size: 15px;
-	z-index: 100;
-	padding: 16px 24px;
-	margin-left: 24px;
-	-webkit-text-decoration: none;
-	text-decoration: none;
-	border-radius: 2px;
-	font-weight: 400;
-	background: #FDFAFB;
-	color: #a61d55;
-	border: 1px solid transparent;
-}

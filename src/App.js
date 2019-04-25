@@ -13,6 +13,7 @@ const App = () => {
         <Route exact path="/service" component={ServicePage}/>
         <Route exact path="/review" component={ReviewPage}/>
         <Route exact path="/contact" component={ContactPage}/>
+        
       </div>
     </BrowserRouter>
   );

@@ -13,6 +13,7 @@ const ContactPage = () => {
       <Navbar />
       <br />
       <br />
+      <br />
 
       {contactInfo.map((element, i) => (
         <ContactSection
