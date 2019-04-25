@@ -14,7 +14,8 @@ const ContactSection = ({ title, text, img }) => {
         </div>
 
         <div 
-        style={{background:`url(${img})`,height:'100%'}}
+        style={{background:`url(${img})`,height:'100%', backgroundPosition: '52% 100%',
+        backgroundRepeat:'no-repeat'}}
         className="right fadeInUpBig" id="right"
         
         >
