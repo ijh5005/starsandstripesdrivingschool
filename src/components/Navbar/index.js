@@ -20,7 +20,7 @@ let Navbar = () => {
 
   return (<nav className="white">
     <div className="topnav">
-      <Link to="/home">
+      <Link to="/">
         <img src={logo}/>
       </Link>
       <div className="linksright">
