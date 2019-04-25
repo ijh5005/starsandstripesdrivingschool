@@ -11,17 +11,17 @@ const App = () => {
     <BrowserRouter>
       <div className="App">
         <Route exact path="/" component={HomePage}/>
-<<<<<<< HEAD
+
         <Route exact path="/service" component={ServicePage}/>
         <Route exact path="/review" component={ReviewPage}/>
         <Route exact path="/contact" component={ContactPage}/>
         
-=======
+
         <Route path="/page" component={Navbar}/>
         <Route exact path="/page/service" component={ServicePage}/>
         <Route exact path="/page/review" component={ReviewPage}/>
         <Route exact path="/page/contact" component={ContactPage}/>
->>>>>>> 0ceb94fc24ad372c9aeae07164c7c8045d025e4d
+
       </div>
     </BrowserRouter>
   );
