@@ -1,7 +1,7 @@
 .left {
 	width: 40vw;
 	position: relative;
-	top:75px;
+	top: 75px;
 }
 
 .right {
@@ -10,66 +10,41 @@
 	position: absolute;
 	left: 47%;
 	top: 15%;
-	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation: slide 1s forwards;
 	-webkit-animation-delay: .5s;
 	animation: slide .8s forwards;
 	animation-delay: 1s;
 	
-
-
 }
 
-/* .right::before {
-	content: "";
-	height: 100%;
-	width: 2px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: linear-gradient( red, rgba(0, 0, 0, 0)) 1 100%;
-	animation: grow 1s forwards;
-  } */
 
-  .right::before{
+.right::before {
 	content: "";
 	height: 100%;
 	width: 4.5px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity:0;
-	animation: grow 5s forwards;
+	opacity: 0;
+	animation: grow 3s forwards;
 	animation-delay: 1s;
 	background-image: url('https://rlv.zcache.com/red_white_blue_ombre_chocolate_dipped_oreo-re433e62be9af4858bf109d4623403146_zipmn_307.jpg?rlvnet=1&rvtype=content');
 	background-position: '52% 100%'
-	
+}
 
-	
-	
-  }
- 
-  @keyframes grow {
+@keyframes grow {
 	from {
-	  height: 0%;
-		 
-	  
+		height: 0%;
 	}
 	to {
-	  height: 100%;
-	  opacity:1;
-	  
-	  
-	 
-	  
-	  
+		height: 100%;
+		opacity: 1;
 	}
-  }
-  
+}
 
 @-webkit-keyframes slide {
 	100% {
 		left: 43%;
-	
 	}
 }
 
@@ -85,9 +60,8 @@
 	color: #a61d55;
 	line-height: 1.5;
 	padding-left: 20px;
-	width:80%;
-	margin-left:10%;
-
+	width: 80%;
+	margin-left: 10%;
 }
 
 .header {
@@ -110,7 +84,5 @@
 	width: 100%;
 	height: 70vh;
 	text-align: center;
-	background:#FDFAFB
-	
+	background: #FDFAFB
 }
-

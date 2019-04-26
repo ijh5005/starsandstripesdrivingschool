@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import map from "../map.png";
 import ContactSection from "./ContactSection";
 import contactInfo from "./contactInfo";
-
+import PrevBtn from "../PreviousBtn";
 let images = [map];
 
 const ContactPage = () => {
@@ -17,6 +17,7 @@ const ContactPage = () => {
           img={images[i]}
         />
       ))}
+      <PrevBtn />
     </>
   );
 };

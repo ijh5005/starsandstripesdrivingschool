@@ -1,0 +1,23 @@
+.prevBtn {
+	display: inline-block;
+	font-size: 15px;
+	z-index: 100;
+	padding: 16px 24px;
+	margin-left: 24px;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: 500;
+	background: #FDFAFB;
+	color: #a61d55;
+	border: 1px solid transparent;
+	position: absolute;
+	background: white;
+	position: fixed;
+	right: 30%;
+	bottom: 0;
+}
+
+.prevBtn:hover {
+	border: 1px solid #a61d55;
+}

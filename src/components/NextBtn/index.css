@@ -1,0 +1,22 @@
+.nextBtn{
+    display: inline-block;
+    font-size: 15px;
+    z-index: 100;
+    padding: 16px 24px;
+    margin-left: 24px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #ff5a5f;
+    color: #fff;
+    border: 1px solid transparent;
+    position: fixed;
+    right:10%;
+    bottom:0;
+  
+}
+
+.nextBtn:hover{
+    border:1px solid white;
+}
