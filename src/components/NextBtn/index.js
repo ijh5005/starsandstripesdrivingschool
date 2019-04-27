@@ -22,7 +22,7 @@ const NextBtn = () => {
           }
         }}
       >
-        Next <span> > </span>{" "}
+        <span>Next</span>
       </Link>
     </>
   );

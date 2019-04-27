@@ -20,8 +20,7 @@ const PrevBtn = props => {
             }
           }}
         >
-          {" "}
-          <span>&#60; </span> Prev
+          <span>Prev</span>
         </Link>
       </a>
     </>
