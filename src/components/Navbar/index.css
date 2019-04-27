@@ -42,7 +42,7 @@ img {
 	transition: border-bottom 0.25s;
 }
 
-.topnav a:hover {
+.topnav a.navToHighlight:hover {
   background: white;
   border-bottom: 1px solid black;
 }

@@ -37,10 +37,10 @@ let Navbar = () => {
         <img src={logo}/>
       </Link>
       <div className="linksright">
-        <Link to="/">Home</Link>
-        <Link id="Services" to="/page/service">Services</Link>
-        <Link id="Contact" to="/page/contact">Contact</Link>
-        <Link id="Review" to="/page/review">Review</Link>
+        <Link className="navToHighlight" to="/">Home</Link>
+        <Link className="navToHighlight" id="Services" to="/page/service">Services</Link>
+        <Link className="navToHighlight" id="Contact" to="/page/contact">Contact</Link>
+        <Link className="navToHighlight" id="Review" to="/page/review">Review</Link>
       </div>
     </div>
   </nav>);
