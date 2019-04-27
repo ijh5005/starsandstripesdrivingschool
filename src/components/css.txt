@@ -1,0 +1,8 @@
+add to javascript
+useEffect(() => {
+  const bottom = document.getElementsByClassName('hideBeforeFadeInSetup')[0];
+  bottom.classList.remove("hideBeforeFadeIn");
+}, []);
+#classes to add to component
+hideBeforeFadeIn
+hideBeforeFadeInSetup
