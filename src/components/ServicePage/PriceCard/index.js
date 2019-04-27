@@ -3,46 +3,95 @@ import "./index.css";
 
 const price = [
   {
-    price: "$70",
+    price: "$50",
     list: [
       "Car Rental",
-      "Basic in-car control overview",
-      "Test route navigation"
-    ],
-    isBestDeal: true
-  },
-  {
-    price: "$70",
-    list: [
-      "Car Rental",
-      "Basic in-car control overview",
-      "Test route navigation"
+      "FREE 15 minutes parallel parking practice"
     ]
   },
   {
-    price: "$70",
+    price: "$80",
     list: [
       "Car Rental",
-      "Basic in-car control overview",
-      "Test route navigation"
+      "30 minutes practice",
+      "FREE 15 minutes parallel parking practice"
+    ]
+  },
+  {
+    price: "$100",
+    list: [
+      "Car Rental",
+      "1 hour practice",
+      "FREE 15 minutes parallel parking practice"
+    ]
+  },
+  {
+    price: "$125",
+    list: [
+      "Car Rental",
+      "2 hour practice"
     ]
   }
 ];
 
+const price2 = [
+  {
+    price: "$80",
+    list: [
+      "Car Rental",
+      "FREE 15 minutes parallel parking practice"
+    ]
+  },
+  {
+    price: "$100",
+    list: [
+      "Car Rental",
+      "30 minutes practice",
+      "FREE 15 minutes parallel parking practice"
+    ]
+  },
+  {
+    price: "$125",
+    list: [
+      "Car Rental",
+      "1 hour practice",
+      "FREE 15 minutes parallel parking practice"
+    ]
+  }
+];
+
+// 50$ rent car + 15 minutes practice  parallel parking free
+// 80$  ( 30 minutes  practice + rent car + 15 minutes practice parallel parking free )
+// 100$  ( 1 hour practice + rent car+ 15 minutes practice parallel  parking free )
+// 125$ ( 2hour practice + rent car )
+//
+// Prices for test in ( Norristown + media+ Huntingdon Vly + Bensalem )
+// 80$( rent car + 15 minutes practice parallel parking free )
+// 100$ ( 30 minutes practice + rent car + 15 minutes practice parallel parking free )
+// 125$ (1 hour practice + rent car + 15 minutes practice parallel parking free )
+
 const PriceCard = () => {
   return (<>
     <div className="priceCardContainer">
+      <p className="smallTextPriceCard">Philly Prices</p>
       {price.map((data, index) => {
         return (<div className="priceCard" key={index}>
-          {data.isBestDeal && <i className="fas fa-star"></i>}
           <div className="cardPrice">
-            <p>$70<span className="small">/hr</span></p>
+            <p>{data.price}</p>
           </div>
-          <p className="listHeading">Includes</p>
           <ul>
-            <li>Car Rental</li>
-            <li>Basic in-car control overview</li>
-            <li>Test route navigation</li>
+            {data.list.map(d => <li>{d}</li>)}
+          </ul>
+        </div>)
+      })}
+      <p className="smallTextPriceCard">Norristown, Media, Huntingdon Valley, Bensalem Prices</p>
+      {price2.map((data, index) => {
+        return (<div className="priceCard" key={index}>
+          <div className="cardPrice">
+            <p>{data.price}</p>
+          </div>
+          <ul>
+            {data.list.map(d => <li>{d}</li>)}
           </ul>
         </div>)
       })}
