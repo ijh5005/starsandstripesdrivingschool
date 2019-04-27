@@ -12,7 +12,7 @@ const Bottom = () => {
     <div id="bottom" className="hideBeforeFadeIn hideBeforeFadeInSetup">
       <p id="title">Stars & Stripes Driving School</p>
       <p className="minitext">The best school in Philadelphia <span id="flag">&#9873;</span> <br/>Door to Door Lessons</p>
-      <Link to={{pathname:'/page/service',state:{prevLocation:window.location.pathname}}}>
+      <Link to={'/page/service'}>
         <div id="startBtn">
             <p>Start</p>
         </div>
