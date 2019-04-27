@@ -4,18 +4,31 @@ import "./index.css";
 import logo from "./starslogo.png";
 
 let Navbar = () => {
-  const [currentLocation, setCurrentLocation] = useState("Services");
 
-  const hasActiveClass = (location) => {
-    return false
+  useEffect(() => {
+    highLightNav();
+  }, [])
+
+  const highLightNav = () => {
+    const location = window.location.pathname;
+    const active = document.getElementsByClassName("active");
+    if(active.length){
+      active[0].classList.remove("active");
+    }
+    if(location === "/page/service"){
+      const ele = document.getElementById("Services");
+      ele.classList.add("active")
+    } else if (location === "/page/contact") {
+      const ele = document.getElementById("Contact");
+      ele.classList.add("active")
+    } else if (location === "/page/review") {
+      const ele = document.getElementById("Review");
+      ele.classList.add("active")
+    }
   }
 
-  const changeLocation = (location) => {
-    setCurrentLocation(currentLocation)
-  }
-
-  const resetNav = (page) => {
-    setCurrentLocation(page)
+  if(!window.onclick){
+    window.onclick = highLightNav;
   }
 
   return (<nav className="white">
@@ -24,22 +37,10 @@ let Navbar = () => {
         <img src={logo}/>
       </Link>
       <div className="linksright">
-        <Link
-          className={currentLocation === "Home" ? "active" : null}
-          to="/"
-        ><span onClick={resetNav.bind(this, "Home")}>Home</span></Link>
-        <Link
-          className={currentLocation === "Services" ? "active" : null}
-          to="/page/service"
-        ><span onClick={resetNav.bind(this, "Services")}>Services</span></Link>
-        <Link
-          className={currentLocation === "Contact" ? "active" : null}
-          to="/page/contact"
-        ><span onClick={resetNav.bind(this, "Contact")}>Contact</span></Link>
-        <Link
-          className={currentLocation === "Review" ? "active" : null}
-          to="/page/review"
-        ><span onClick={resetNav.bind(this, "Review")}>Review</span></Link>
+        <Link to="/">Home</Link>
+        <Link id="Services" to="/page/service">Services</Link>
+        <Link id="Contact" to="/page/contact">Contact</Link>
+        <Link id="Review" to="/page/review">Review</Link>
       </div>
     </div>
   </nav>);
