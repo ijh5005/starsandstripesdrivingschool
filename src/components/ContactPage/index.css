@@ -8,11 +8,11 @@
 	width: 50vw;
 	float: right;
 	position: absolute;
-	left: 47%;
+	left: 49%;
 	top: 15%;
 	-webkit-animation: slide 1s forwards;
 	-webkit-animation-delay: .5s;
-	animation: slide .8s forwards;
+	animation: slide .5s forwards;
 	animation-delay: 1s;
 	
 }
@@ -35,6 +35,7 @@
 @keyframes grow {
 	from {
 		height: 0%;
+		
 	}
 	to {
 		height: 100%;
@@ -86,3 +87,4 @@
 	text-align: center;
 	background: #FDFAFB
 }
+
