@@ -11,6 +11,7 @@ const RightSide = () => {
       letters[i].classList.remove("down");
     }
   }, [])
+  
 
   return (
     <div id="rightSide">
