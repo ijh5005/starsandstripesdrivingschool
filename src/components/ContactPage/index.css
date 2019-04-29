@@ -1,7 +1,10 @@
 .left {
 	width: 40vw;
 	position: relative;
-	top: 75px;
+	top: 14vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .right {
@@ -31,20 +34,19 @@
 }
 
 .description {
-	font-size: 1.5vw;
+	font-size: 1.26vw;
 	line-height: 1.5;
 	color: #a61d55;
 	line-height: 1.5;
 	padding-left: 20px;
 	width: 80%;
 	margin-left: 10%;
+	text-align: -webkit-left;
 }
 
 .header {
 	font-weight: 900;
 	font-family: 'Noto Sans KR', sans-serif;
-	font-style: italic;
-	font-size: 3.7vw;
 	line-height: 1.1;
 	-webkit-letter-spacing: -1.4px;
 	-moz-letter-spacing: -1.4px;
@@ -54,6 +56,8 @@
 	z-index: 10;
 	color: #a61d55;
 	text-align: center;
+	font-size: 5em;
+	width: 5em;
 }
 
 .container {

@@ -1,152 +1,138 @@
 
 .container{
-height:100vh;
-width:100vw;
-margin:0 auto;
-position: relative;
-margin-bottom:300px;
-
+  height:100vh;
+  width:100vw;
+  margin:0 auto;
+  position: relative;
 }
-.profile{
-    
-    height:300px;
-    width:300px;
-    margin-left:50px;
-    margin-top:50px;
-    position: absolute;
-    left:10%;
 
-    
+.profile {
+  height:300px;
+  width:300px;
+  margin-left:50px;
+  margin-top:50px;
+  position: absolute;
+  left:10%;
 }
-.profile2{
-    
-    height:300px;
-    width:300px;
-    position: absolute;
-    right:15%;
-    top:80%;
- 
-    margin-top:50px;
-   
 
+.profile2 {
+  height:300px;
+  width:300px;
+  position: absolute;
+  right:15%;
+  top:80%;
+  margin-top:50px;
 }
 
 .quotation{
-    
-    width: 458px;
-    height: 192px;
-    font-family: PTSerif;
-    font-size: 32px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #373742;
-    position: absolute;
-    right:25%;
-    top:10%;
-    font-size: 30px;
-    margin: 0 auto;
-    quotes: "\201C""\201D""\2018""\2019";
-    padding: 10px 20px;
-    line-height: 1.4;
-  }
-  
-  .quotation:before {
-    content: open-quote;
-    display: inline;
-    height: 0;
-    line-height: 0;
-    left: -10px;
-    position: relative;
-    top: 30px;
-    color: #ccc;
-    font-size: 3em;
-  }
-  .quotation::after {
-    content: close-quote;
-    display: inline;
-    height: 0;
-    line-height: 0;
-    left: 10px;
-    position: relative;
-    top: 35px;
-    color: #ccc;
-    font-size: 3em;
-  }
-  footer{
-    margin:0;
-    text-align: right;
-    font-size: 1.5em;
-    font-style: italic;
-    position:absolute;
-    right:25%;
-    bottom:40%;
-    
-  }
+  width: 458px;
+  height: 192px;
+  font-family: PTSerif;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373742;
+  position: absolute;
+  right:25%;
+  top:10%;
+  font-size: 30px;
+  margin: 0 auto;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
 
-  
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
 
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
+
+footer{
+  margin:0;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+  position:absolute;
+  right:25%;
+  bottom:40%;
+}
 
 .review2{
-
-    width: 458px;
-    height: 192px;
-    font-family: PTSerif;
-    font-size: 32px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #373742;
-    position: absolute;
-    left:15%;
-    top:95%;
-    margin-left:50px;
-  
+  width: 458px;
+  height: 192px;
+  font-family: PTSerif;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373742;
+  position: absolute;
+  left:15%;
+  top:95%;
+  margin-left:50px;
 }
 
 .review2:before {
-    content: open-quote;
-    display: inline;
-    height: 0;
-    line-height: 0;
-    left: -10px;
-    position: relative;
-    top: 30px;
-    color: #ccc;
-    font-size: 3em;
-  }
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
 
-  .review2::after {
-    content: close-quote;
-    display: inline;
-    height: 0;
-    line-height: 0;
-    left: 10px;
-    position: relative;
-    top: 35px;
-    color: #ccc;
-    font-size: 3em;
-  }
-.quote{
+.review2::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
 
-    width: 300px;
-    height: 32px;
-    font-family: Rubik;
-    font-size: 24px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #373742;
-    position: absolute;
-    
-  
+.quote {
+  width: 300px;
+  height: 32px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373742;
+  position: absolute;
 }

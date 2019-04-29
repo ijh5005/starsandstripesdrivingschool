@@ -12,7 +12,7 @@ const ContactSection = ({ title, text, img }) => {
     <>
       <div className="container hideBeforeFadeIn hideBeforeFadeInSetup">
         <div className="left">
-          <span className="header">{title}</span>
+          <p className="header">{title}</p>
           <p className="description">{text}</p>
         </div>
 
