@@ -46,18 +46,11 @@
 
 .header {
 	font-weight: 900;
-	font-family: 'Noto Sans KR', sans-serif;
-	line-height: 1.1;
-	-webkit-letter-spacing: -1.4px;
-	-moz-letter-spacing: -1.4px;
-	-ms-letter-spacing: -1.4px;
-	letter-spacing: -1.4px;
-	margin-bottom: 0.2em;
-	z-index: 10;
-	color: #a61d55;
-	text-align: center;
-	font-size: 5em;
-	width: 5em;
+  line-height: 1.1;
+  margin-bottom: 0.2em;
+  color: #a61d55;
+  font-size: 5em;
+  width: 5em;
 }
 
 .container {
