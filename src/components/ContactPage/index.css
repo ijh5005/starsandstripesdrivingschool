@@ -10,13 +10,7 @@
 	position: absolute;
 	left: 49%;
 	top: 15%;
-	-webkit-animation: slide 1s forwards;
-	-webkit-animation-delay: .5s;
-	animation: slide .5s forwards;
-	animation-delay: 1s;
-	
 }
-
 
 .right::before {
 	content: "";
@@ -26,27 +20,8 @@
 	top: 0;
 	left: 0;
 	opacity: 0;
-	animation: grow 3s forwards;
-	animation-delay: 1s;
 	background-image: url('https://rlv.zcache.com/red_white_blue_ombre_chocolate_dipped_oreo-re433e62be9af4858bf109d4623403146_zipmn_307.jpg?rlvnet=1&rvtype=content');
 	background-position: '52% 100%'
-}
-
-@keyframes grow {
-	from {
-		height: 0%;
-		
-	}
-	to {
-		height: 100%;
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes slide {
-	100% {
-		left: 43%;
-	}
 }
 
 .images {
@@ -87,4 +62,3 @@
 	text-align: center;
 	background: #FDFAFB
 }
-
