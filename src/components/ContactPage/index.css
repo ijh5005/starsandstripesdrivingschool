@@ -1,18 +1,20 @@
+.container.contactHolder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
 .left {
 	width: 40vw;
-	position: relative;
-	top: 14vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin: 4em;
 }
 
 .right {
 	width: 50vw;
-	float: right;
-	position: absolute;
-	left: 49%;
-	top: 15%;
 }
 
 .right::before {
