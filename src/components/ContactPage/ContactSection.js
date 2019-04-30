@@ -10,7 +10,7 @@ const ContactSection = ({ title, text, img }) => {
 
   return (
     <>
-      <div className="container hideBeforeFadeIn hideBeforeFadeInSetup">
+      <div className="container hideBeforeFadeIn hideBeforeFadeInSetup contactHolder">
         <div className="left">
           <p className="header">{title}</p>
           <p className="description">{text}</p>

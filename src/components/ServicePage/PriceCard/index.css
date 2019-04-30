@@ -31,15 +31,6 @@
   min-width: 360px;
 }
 
-i {
-  width: 5em;
-  position: absolute;
-  top: 0.25em;
-  left: 0.5em;
-  font-size: 7em;
-  color: #ffffff;
-}
-
 .cardPrice {
   display: flex;
   justify-content: flex-end;
