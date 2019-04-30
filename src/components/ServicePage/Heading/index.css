@@ -47,8 +47,15 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+  .detailSide.img {
+    display: none;
+  }
+  
   .largeText {
     font-size: 14em;
+  }
+  .smallText {
+    font-size: 3.4em;
   }
 }
 
