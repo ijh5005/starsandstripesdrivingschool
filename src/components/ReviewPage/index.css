@@ -32,7 +32,12 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+ .intro{
 
+  font-size:25px;
+  position:relative;
+  left:-120px;
+ }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

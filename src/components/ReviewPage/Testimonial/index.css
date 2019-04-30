@@ -1,141 +1,139 @@
 
-.container{
-  height:100vh;
-  width:100vw;
-  margin:0 auto;
-  position: relative;
-  margin-bottom:350px;
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 350px;
 }
 
 .profile {
-  height:300px;
-  width:300px;
-  margin-left:50px;
-  margin-top:50px;
-  position: absolute;
-  left:10%;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+    left: 10%;
 }
 
 .profile2 {
-  height:300px;
-  width:300px;
-  position: absolute;
-  right:15%;
-  top:85%;
-  
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 15%;
+    top: 85%;
+
 }
 
-.quotation{
-  width: 458px;
-  height: 192px;
-  font-family: PTSerif;
-  font-size: 32px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373742;
-  position: absolute;
-  right:25%;
-  top:10%;
-  font-size: 30px;
-  margin: 0 auto;
-  quotes: "\201C""\201D""\2018""\2019";
-  padding: 10px 20px;
-  line-height: 1.4;
+.quotation {
+    width: 458px;
+    height: 192px;
+    font-family: PTSerif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373742;
+    position: absolute;
+    right: 25%;
+    top: 10%;
+    font-size: 30px;
+    margin: 0 auto;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
 }
-
 .quotation:before {
-  content: open-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: -10px;
-  position: relative;
-  top: 30px;
-  color: #ccc;
-  font-size: 3em;
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #ccc;
+    font-size: 3em;
 }
 
 .quotation::after {
-  content: close-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: 10px;
-  position: relative;
-  top: 35px;
-  color: #ccc;
-  font-size: 3em;
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #ccc;
+    font-size: 3em;
 }
 
-footer{
-  margin:0;
-  text-align: right;
-  font-size: 1.5em;
-  font-style: italic;
-  position:absolute;
-  right:25%;
-  bottom:40%;
+footer {
+    margin: 0;
+    text-align: right;
+    font-size: 1.5em;
+    font-style: italic;
+    position: absolute;
+    right: 25%;
+    bottom: 40%;
 }
 
-.review2{
-  width: 458px;
-  height: 192px;
-  font-family: PTSerif;
-  font-size: 32px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373742;
-  position: absolute;
-  left:15%;
-  top:95%;
-  margin-left:50px;
+.review2 {
+    width: 458px;
+    height: 192px;
+    font-family: PTSerif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373742;
+    position: absolute;
+    left: 15%;
+    top: 95%;
+    margin-left: 50px;
 }
-
 .review2:before {
-  content: open-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: -10px;
-  position: relative;
-  top: 30px;
-  color: #ccc;
-  font-size: 3em;
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #ccc;
+    font-size: 3em;
 }
 
 .review2::after {
-  content: close-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: 10px;
-  position: relative;
-  top: 35px;
-  color: #ccc;
-  font-size: 3em;
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #ccc;
+    font-size: 3em;
 }
 
 .quote {
-  width: 300px;
-  height: 32px;
-  font-family: Rubik;
-  font-size: 24px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373742;
-  position: absolute;
+    width: 300px;
+    height: 32px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373742;
+    position: absolute;
 }
 
 /***************************/
@@ -143,126 +141,215 @@ footer{
 /***************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-  
-.container{
-  height:80vh;
-  width:100vw;
-  position: relative;
-  
-  
-}
 
-.profile {
-  height:140px;
-  width:140px;
-  position: absolute;
-  top:0;
-  left:-74px;
-}
+    .container {
+        height: 80vh;
+        width: 100vw;
+        position: relative;
 
-.profile2 {
-  height:150px;
-  width:150px;
-  position: absolute;
-  top:400px;
-  left:-48px;
-}
+    }
 
-.quotation{
-  width: 190px;
-  height: 120px;
-  font-family: PTSerif;
-  padding-top:20px;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #373742;
-  position: absolute;
-  left:29%;
-  bottom:0;
-  font-size: 17px;
-  quotes: "\201C""\201D""\2018""\2019";
-  padding: 10px 20px;
-  line-height: 1.2;
-}
-.review2{
-  width: 180px;
-  height: 120px;
-  font-family: PTSerif;
-  padding-top:15px;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #373742;
-  position: absolute;
-  left:10%;
-  
-  font-size: 17px;
-  quotes: "\201C""\201D""\2018""\2019";
-  padding: 10px 20px;
-  line-height: 1.2;
-}
+    .profile {
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        top: 0;
+        left:0;
+    }
 
-.review2:before {
-  content: open-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  right:10px;
-  position: relative;
-  top: 10px;
-  color: #ccc;
-  font-size: 3em;
-}
+    .profile2 {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 400px;
+        left: -48px;
+    }
 
-.review2::after {
-  content: close-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: 10px;
-  position: relative;
-  top: 35px;
-  color: #ccc;
-  font-size: 3em;
-}
+    .quotation {
+        width: 190px;
+        height: 120px;
+        font-family: PTSerif;
+        padding-top: 20px;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #373742;
+        position: absolute;
+        left: 29%;
+        bottom: 0;
+        font-size: 17px;
+        quotes: "\201C""\201D""\2018""\2019";
+        padding: 10px 20px;
+        line-height: 1.2;
+    }
+    .review2 {
+        width: 180px;
+        height: 120px;
+        font-family: PTSerif;
+        padding-top: 15px;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #373742;
+        position: absolute;
+        left: 10%;
 
+        font-size: 17px;
+        quotes: "\201C""\201D""\2018""\2019";
+        padding: 10px 20px;
+        line-height: 1.2;
+    }
+    .review2:before {
+        content: open-quote;
+        display: inline;
+        line-height: 0;
+        right: 10px;
+        position: relative;
+        top: 10px;
+        color: #ccc;
+        font-size: 3em;
+    }
 
-footer{
-  margin:0;
-  text-align: right;
-  font-size: 1em;
-  font-style: italic;
-  position:absolute;
-  right:10;
-  bottom:40%;
-}
+    .review2::after {
+        content: close-quote;
+        display: inline;
+        height: 0;
+        line-height: 0;
+        left: 10px;
+        position: relative;
+        top: 35px;
+        color: #ccc;
+        font-size: 3em;
+    }
 
-.container{
-  margin-bottom:170px;
-}
+    .quoteFooter {
+        margin: 0;
+        text-align: right;
+        font-size: 1em;
+        font-style: italic;
+        position: absolute;
+        right: 10;
+        bottom: 40%;
+    }
+
+    .container {
+        margin-bottom: 150px;
+    }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 
+    .profile {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 0;
+        left: -18px;
+    }
+    .profile2 {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        bottom: -140px;
+        left: -15px;
+    }
+  
+    .quotation {
+        width: 190px;
+        height: 120px;
+        font-family: PTSerif;
+        padding-top: 20px;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #373742;
+        position: absolute;
+        left: 23%;
+        bottom: -350px;
+        font-size: 18px;
+        quotes: "\201C""\201D""\2018""\2019";
+        padding: 10px 20px;
+        line-height: 1.2;
+    }
+
+    .quotation:before {
+      content: open-quote;
+      display: inline;
+      height: 0;
+      line-height: 0;
+      left: -50px;
+      position: relative;
+      top: -5px;
+      color: #ccc;
+      font-size: 3em;
+  }
+
+  .review2 {
+    width: 180px;
+    height: 120px;
+    font-family: PTSerif;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373742;
+    position: absolute;
+    left: 20%;
+
+    font-size: 17px;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.2;
+}
+.review2:before {
+    content: open-quote;
+    display: inline;
+    line-height: 0;
+    right: 10px;
+    position: relative;
+    top: 10px;
+    color: #ccc;
+    font-size: 3em;
+}
+
+.review2::after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #ccc;
+    font-size: 3em;
+}
+
+  
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-
-}
+    }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-
-}
+    }
