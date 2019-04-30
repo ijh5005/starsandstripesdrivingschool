@@ -7,12 +7,12 @@ import PrevBtn from '../PreviousBtn';
 
 
 const ServicePage = () => {
-  return (<>
+  return (<div id="servicesPage">
     <Heading />
     <PriceCard />
     <PrevBtn/>
     <NextBtn/>
-  </>)
+  </div>)
 }
 
 export default ServicePage;
