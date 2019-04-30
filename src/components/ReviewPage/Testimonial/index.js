@@ -12,7 +12,8 @@ const Testimonial = (props)=>{
                 <footer>— Mitch Philmore</footer>
             </blockquote> 
          
-            <br/>
+        
+         
         
             <div style={{background:`url(${props.img2})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} className="profile2"> </div>
             <br/>

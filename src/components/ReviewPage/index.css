@@ -22,6 +22,11 @@
 /***************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+  .intro{
+    font-size:25px;
+    position:relative;
+    left:-20px;
+  }
 
 }
 
