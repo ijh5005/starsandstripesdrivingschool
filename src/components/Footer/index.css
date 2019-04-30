@@ -4,17 +4,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-<<<<<<< HEAD
-	
-=======
-	background-color: #222;
 	margin-top: 5em;
 }
 
 #footer i {
 	font-size: 2em;
 	margin: 1em;
->>>>>>> 7f48ccc1d808bb7c6a6783d71a6f18abdbd520ff
+	
 }
 
 /***************************/
