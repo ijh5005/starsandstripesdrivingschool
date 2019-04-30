@@ -17,10 +17,11 @@ const App = () => {
         <Route exact path="/page/service" component={ServicePage}/>
         <Route exact path="/page/review" component={ReviewPage}/>
         <Route exact path="/page/contact" component={ContactPage}/>
-        <Route path="/page" component={Footer}/>
       </div>
     </BrowserRouter>
   );
 }
+
+// <Route path="/page" component={Footer}/>
 
 export default App;
