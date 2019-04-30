@@ -1,19 +1,10 @@
-#servicesPage {
-  padding-bottom: 10em;
-}
-
-.scheduleButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1em;
-  font-size: 4.4em;
-  font-weight: 800;
-  line-height: 1;
-}
-
-.scheduleButton a {
-  color: #444444;
+#footer {
+	width: 100vw;
+	height: 10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
 }
 
 /***************************/
@@ -21,17 +12,23 @@
 /***************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
+	.topnav {
+    display: none;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+	.topnav {
+    display: none;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-
+	.topnav {
+    display: none;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

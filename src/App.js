@@ -5,6 +5,7 @@ import ServicePage from "./components/ServicePage";
 import ReviewPage from "./components/ReviewPage";
 import ContactPage from "./components/ContactPage";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <Route exact path="/page/service" component={ServicePage}/>
         <Route exact path="/page/review" component={ReviewPage}/>
         <Route exact path="/page/contact" component={ContactPage}/>
-
+        <Route path="/page" component={Footer}/>
       </div>
     </BrowserRouter>
   );
