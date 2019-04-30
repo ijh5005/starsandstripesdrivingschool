@@ -15,10 +15,7 @@
   min-width: 20em;
   position: relative;
   overflow: hidden;
-  width: 45%;
-  border-radius: 10px;
-  background-color: #eee;
-  margin: 1em;
+  width: 50%;
 }
 
 .detailImg {

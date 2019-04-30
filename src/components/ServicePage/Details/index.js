@@ -14,44 +14,25 @@ import "./index.css";
 const content = [
   {
     img: img1,
-    text: "something"
-  },
-  {
-    img: img2,
-    text: "something"
-  },
-  {
-    img: img3,
-    text: "something"
-  },
-  {
-    img: img4,
-    text: "something"
-  },
-  {
-    img: img5,
-    text: "something"
-  },
-  {
-    img: img6,
-    text: "something"
+    text: "tips..."
   },
   {
     img: img7,
-    text: "something"
+    text: "tips..."
   },
   {
     img: img8,
-    text: "something"
+    text: "tips..."
   },
   {
     img: img9,
-    text: "something"
+    text: "tips..."
   }
 ]
 
 const Details = () => {
   return (<div id="detailsPage">
+    <p className="smallTextPriceCard">Tips</p>
     {content.map((data, index) => {
       return <Detail content={data} index={index} />
     })}
