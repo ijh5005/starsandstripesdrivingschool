@@ -4,13 +4,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #222;
 	margin-top: 5em;
 }
 
 #footer i {
 	font-size: 2em;
 	margin: 1em;
+	
 }
 
 /***************************/
