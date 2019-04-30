@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 
 const App = () => {
-  return (
+  return (<div id="app">
     <BrowserRouter>
       <div className="App">
         <Route exact path="/" component={HomePage}/>
@@ -19,7 +19,7 @@ const App = () => {
         <Route exact path="/page/contact" component={ContactPage}/>
       </div>
     </BrowserRouter>
-  );
+  </div>);
 }
 
 // <Route path="/page" component={Footer}/>
