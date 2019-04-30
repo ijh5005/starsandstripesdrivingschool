@@ -31,38 +31,30 @@
   letter-spacing: -10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/***************************/
 /* media queries */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-}
-
+/***************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
+  .largeText {
+    display: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+  .largeText {
+    z-index: -1;
+    opacity: 0.4;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-
+  .largeText {
+    z-index: -1;
+    opacity: 0.4;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

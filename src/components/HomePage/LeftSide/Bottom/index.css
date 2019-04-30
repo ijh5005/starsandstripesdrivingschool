@@ -37,38 +37,54 @@ a {
   color: #ff5a5e;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/***************************/
 /* media queries */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-}
-
+/***************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
+  .letter {
+    font-size: 40vw;
+    opacity: 0.4;
+  }
+  #top {
+    height: 10vh;
+  }
+  #bottom {
+    padding-left: 4em;
+  }
+  ul {
+    padding: 0;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+  .letter {
+    font-size: 40vw;
+    opacity: 0.4;
+  }
+  #top {
+    height: 10vh;
+  }
+  #bottom {
+    padding-left: 4em;
+  }
+  ul {
+    padding: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-
+  #top {
+    height: 10vh;
+  }
+  #bottom {
+    padding-left: 4em;
+  }
+  ul {
+    padding: 0;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
