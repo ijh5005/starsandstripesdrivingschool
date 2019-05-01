@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import "./index.css";
 
-const price = [
+const price0 = [
+  {
+    price: "$70",
+    list: [
+      "2 hr driving lesson"
+    ]
+  }
+]
+
+const price1 = [
   {
     price: "$50",
     list: [
@@ -73,8 +82,8 @@ const price2 = [
 const PriceCard = () => {
   return (<>
     <div className="priceCardContainer">
-      <p className="smallTextPriceCard">Philly Prices</p>
-      {price.map((data, index) => {
+      <p className="smallTextPriceCard">Driving Practice Cost</p>
+      {price0.map((data, index) => {
         return (<div className="priceCard" key={index}>
           <div className="cardPrice">
             <p>{data.price}</p>
@@ -84,7 +93,18 @@ const PriceCard = () => {
           </ul>
         </div>)
       })}
-      <p className="smallTextPriceCard">Norristown, Media, Huntingdon Valley, Bensalem Prices</p>
+      <p className="smallTextPriceCard">Driving Test: Philly Prices</p>
+      {price1.map((data, index) => {
+        return (<div className="priceCard" key={index}>
+          <div className="cardPrice">
+            <p>{data.price}</p>
+          </div>
+          <ul>
+            {data.list.map(d => <li>{d}</li>)}
+          </ul>
+        </div>)
+      })}
+      <p className="smallTextPriceCard">Driving Test: Norristown, Media, Huntingdon Valley, Bensalem Prices</p>
       {price2.map((data, index) => {
         return (<div className="priceCard" key={index}>
           <div className="cardPrice">
