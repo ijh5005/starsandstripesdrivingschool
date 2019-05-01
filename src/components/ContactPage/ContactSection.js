@@ -14,6 +14,12 @@ const ContactSection = ({ title, text, img }) => {
         <div className="left">
           <p className="header">{title}</p>
           <p className="description">{text}</p>
+          <a className="details" href="tel:267-262-1196">Phone: 267-262-1196</a>
+          <p className="schedule">Operating Hours</p>
+          <ul>
+            <li className="details">Stars and Stripes Driving school is open 7 days a week</li>
+            <li className="details">8AM to 7PM</li>
+          </ul>
         </div>
 
         <div
