@@ -137,6 +137,15 @@ footer {
     font-size: 2em;
     width: 8em;
   }
+  .profile,
+  .profile2 {
+    height: 14em;
+  }
+  .quotation,
+  .review2 {
+    font-size: 1.4em;
+    width: 80%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
