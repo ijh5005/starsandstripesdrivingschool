@@ -19,8 +19,8 @@ const content = [
     tips: [
       "It is necessary to drive slowly when taking angles in snowy situations and must drive quickly below the actual, maximum speed to get a safe drive.",
       "Do not exceed other cars at high speed.",
-      "Slippery roads leading to vehicle collisions should be monitored.",
-      "Attention should be paid to some warning signs placed in deep drift areas to ensure safety.",
+      "Monitor slippery roads. Slippery roads can lead to vehicle collisions.",
+      "Pay attention to warning signs placed in deep drift areas to ensure safety.",
       "Take time to stop.",
       "The use of car lights in driving makes driving safe."
     ]
@@ -31,12 +31,12 @@ const content = [
     tipsHeading: "Driving during the rain",
     tips: [
       "It is essential that students, check the tires before driving.",
-      "Ensuring that wipers works and how effective they are.",
-      "Make sure the car glass is clean from the outside and inside.",
+      "Ensure that wipers work effectively.",
+      "Ensure the car's windows are clean inside and outside.",
       "Make sure that the condensate resistors are applied to the car’s glass to prevent fog from forming on the glass",
       "Driving is quicker than those we do in normal days.",
-      "Leaving safer distances between car’s",
-      "Avoid water pools on the edges of the road if possible.",
+      "Drive a safe distance between cars.",
+      "Avoid puddles of water on the edges of the road if possible.",
       "Communicate well with other drivers around you and share the road with them in a safe way for everyone."
     ]
   },
@@ -46,9 +46,9 @@ const content = [
     tipsHeading: "Driving during the night",
     tips: [
       "It is necessary to drive slowly when taking angles in snowy situations and must drive quickly below the actual, maximum speed to get a safe drive.",
-      "Do not exceed other cars at high speed.",
-      "Slippery roads leading to vehicle collisions should be monitored.",
-      "Attention should be paid to some warning signs placed in deep drift areas to ensure safety.",
+      "Do not pass other cars at high speed.",
+      "Monitor slippery roads. Slippery roads can lead to vehicle collisions.",
+      "Pay attention to warning signs placed in deep drift areas to ensure safety.",
       "Take time to stop.",
       "The use of car lights in driving makes driving safe."
     ]
@@ -60,7 +60,7 @@ const content = [
     tips: [
       "It is necessary to drive slowly when taking angles in snowy situations and must drive quickly below the actual, maximum speed to get a safe drive.",
       "Do not exceed other cars at high speed.",
-      "Slippery roads leading to vehicle collisions should be monitored.",
+      "Monitor slippery roads. Slippery roads can lead to vehicle collisions.",
       "Attention should be paid to some warning signs placed in deep drift areas to ensure safety.",
       "Take time to stop.",
       "The use of car lights in driving makes driving safe."
