@@ -29,7 +29,7 @@ const ContactSection = ({ title, text, img }) => {
             backgroundPosition: "52% 100%",
             backgroundRepeat: "no-repeat"
           }}
-          className="right fadeInUp"
+          className="right fadeInUp contactImg"
           id="right"
         />
       </div>
