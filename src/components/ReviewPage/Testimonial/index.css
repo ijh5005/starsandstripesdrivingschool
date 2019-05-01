@@ -1,48 +1,41 @@
 
-.container {
-  height: 100vh;
+.containerTestomny {
   width: 100vw;
   margin: 0 auto;
   position: relative;
 }
 
+.reviewContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4em 0;
+}
+
 .profile {
   height: 300px;
   width: 300px;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: absolute;
-  left: 10%;
 }
 
 .profile2 {
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    right: 15%;
-    top: 85%;
+  height: 300px;
+  width: 300px;
 }
 
 .quotation {
-    width: 458px;
-    height: 192px;
-    font-family: PTSerif;
-    font-size: 32px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #373742;
-    position: absolute;
-    right: 25%;
-    top: 10%;
-    font-size: 30px;
-    margin: 0 auto;
-    quotes: "\201C""\201D""\2018""\2019";
-    padding: 10px 20px;
-    line-height: 1.4;
+  width: 458px;
+  font-family: PTSerif;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373742;
+  font-size: 30px;
+  quotes: "\201C""\201D""\2018""\2019";
+  line-height: 1.4;
 }
 .quotation:before {
     content: open-quote;
@@ -80,21 +73,16 @@ footer {
 
 .review2 {
     width: 458px;
-    height: 192px;
     font-family: PTSerif;
     font-size: 32px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
     color: #373742;
-    position: absolute;
-    left: 15%;
-    top: 95%;
-    margin-left: 50px;
 }
+
 .review2:before {
     content: open-quote;
     display: inline;
@@ -140,214 +128,23 @@ footer {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
 
-    .container {
-        height: 80vh;
-        width: 100vw;
-        position: relative;
-
-    }
-
-    .profile {
-        height: 140px;
-        width: 140px;
-        position: absolute;
-        top: 0;
-        left:0;
-    }
-
-    .profile2 {
-        height: 150px;
-        width: 150px;
-        position: absolute;
-        top: 400px;
-        left: -48px;
-    }
-
-    .quotation {
-        width: 190px;
-        height: 120px;
-        font-family: PTSerif;
-        padding-top: 20px;
-        font-size: 12px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: center;
-        color: #373742;
-        position: absolute;
-        left: 29%;
-        bottom: 0;
-        font-size: 17px;
-        quotes: "\201C""\201D""\2018""\2019";
-        padding: 10px 20px;
-        line-height: 1.2;
-    }
-    .review2 {
-        width: 180px;
-        height: 120px;
-        font-family: PTSerif;
-        padding-top: 15px;
-        font-size: 12px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: center;
-        color: #373742;
-        position: absolute;
-        left: 10%;
-
-        font-size: 17px;
-        quotes: "\201C""\201D""\2018""\2019";
-        padding: 10px 20px;
-        line-height: 1.2;
-    }
-    .review2:before {
-        content: open-quote;
-        display: inline;
-        line-height: 0;
-        right: 10px;
-        position: relative;
-        top: 10px;
-        color: #ccc;
-        font-size: 3em;
-    }
-
-    .review2::after {
-        content: close-quote;
-        display: inline;
-        height: 0;
-        line-height: 0;
-        left: 10px;
-        position: relative;
-        top: 35px;
-        color: #ccc;
-        font-size: 3em;
-    }
-
-    .quoteFooter {
-        margin: 0;
-        text-align: right;
-        font-size: 1em;
-        font-style: italic;
-        position: absolute;
-        right: 10;
-        bottom: 40%;
-    }
-
-    .container {
-        margin-bottom: 150px;
-    }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
-    .profile {
-        height: 250px;
-        width: 250px;
-        position: absolute;
-        top: 0;
-        left: -18px;
-    }
-    .profile2 {
-        height: 250px;
-        width: 250px;
-        position: absolute;
-        bottom: -140px;
-        left: -15px;
-    }
-
-    .quotation {
-        width: 190px;
-        height: 120px;
-        font-family: PTSerif;
-        padding-top: 20px;
-        font-size: 12px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: center;
-        color: #373742;
-        position: absolute;
-        left: 35%;
-        bottom: -350px;
-        font-size: 18px;
-        quotes: "\201C""\201D""\2018""\2019";
-        padding: 10px 20px;
-        line-height: 1.2;
-    }
-
-    .quotation:before {
-      content: open-quote;
-      display: inline;
-      height: 0;
-      line-height: 0;
-      left: -50px;
-      position: relative;
-      top: -5px;
-      color: #ccc;
-      font-size: 3em;
-  }
-
+  .quotation,
   .review2 {
-    width: 180px;
-    height: 120px;
-    font-family: PTSerif;
-    padding-top: 15px;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #373742;
-    position: absolute;
-    left: 35%;
-
-    font-size: 17px;
-    quotes: "\201C""\201D""\2018""\2019";
-    padding: 10px 20px;
-    line-height: 1.2;
-}
-.review2:before {
-    content: open-quote;
-    display: inline;
-    line-height: 0;
-    right: 10px;
-    position: relative;
-    top: 10px;
-    color: #ccc;
-    font-size: 3em;
-}
-
-.review2::after {
-    content: close-quote;
-    display: inline;
-    height: 0;
-    line-height: 0;
-    left: 10px;
-    position: relative;
-    top: 35px;
-    color: #ccc;
-    font-size: 3em;
-}
-
-
-
+    font-size: 2em;
+    width: 8em;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-    }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-    }
+
+}

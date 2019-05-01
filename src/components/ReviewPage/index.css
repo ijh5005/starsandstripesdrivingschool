@@ -13,8 +13,15 @@
   margin:0 auto;
 }
 
-.container {
-  background-image: linear-gradient(146deg, #f5f7fa, #f4f6f8);
+.containerTestomny {
+  /* background-image: linear-gradient(146deg, #f5f7fa, #f4f6f8); */
+}
+
+.containerTestomny .smallText {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin: 1em;
 }
 
 /***************************/
@@ -22,22 +29,15 @@
 /***************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-  .intro{
-    font-size:25px;
-    position:relative;
-    left:-20px;
-  }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
- .intro{
-
-  font-size:25px;
-  position:relative;
-  left:-120px;
- }
+  .reviewTitle {
+    font-size: 2em;
+    margin: 1em 0 !important;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
