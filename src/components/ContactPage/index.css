@@ -3,7 +3,6 @@
 	justify-content: center;
 	align-items: center;
 	height: 90vh;
-	margin-bottom: 4em;
 }
 
 .left {
@@ -90,6 +89,7 @@
 	}
 	.container.contactHolder {
 		height: 182vh;
+		margin-bottom: 10em;
 	}
 	.details {
 		font-size: 2em;
