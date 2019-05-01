@@ -14,7 +14,7 @@ const ServicePage = () => {
     <PrevBtn/>
     <div className="scheduleButton">
       <a href="https://www.dot2e.penndot.gov/exam_scheduling/eslogin.jsp#top?20190416185208189=20190416185208189" target="_blank">
-        click to schedule your driving test
+        Click to schedule your driving test
       </a>
     </div>
     <Details />
