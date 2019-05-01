@@ -63,6 +63,20 @@
 	background: #FDFAFB
 }
 
+.schedule{
+	color:#a61d55;
+	text-align:center;
+	font-size:2.5em;
+	font-weight:900;
+}
+
+.details{
+	font-size: 1.26vw;
+	line-height: 1.5;
+	color: #a61d55;
+	line-height: 1.5;
+}
+
 /***************************/
 /* media queries */
 /***************************/
