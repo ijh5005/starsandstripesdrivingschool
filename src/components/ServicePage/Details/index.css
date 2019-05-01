@@ -3,6 +3,12 @@
   margin: 6em auto;
 }
 
+.detailsHeading {
+  font-size: 2em;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
 /***************************/
 /* media queries */
 /***************************/

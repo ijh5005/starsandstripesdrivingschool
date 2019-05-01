@@ -89,7 +89,7 @@ const PriceCard = () => {
             <p>{data.price}</p>
           </div>
           <ul>
-            {data.list.map(d => <li>{d}</li>)}
+            {data.list.map((d, i) => <li key={i}>{d}</li>)}
           </ul>
         </div>)
       })}
@@ -100,7 +100,7 @@ const PriceCard = () => {
             <p>{data.price}</p>
           </div>
           <ul>
-            {data.list.map(d => <li>{d}</li>)}
+            {data.list.map((d, i) => <li key={i}>{d}</li>)}
           </ul>
         </div>)
       })}
@@ -111,7 +111,7 @@ const PriceCard = () => {
             <p>{data.price}</p>
           </div>
           <ul>
-            {data.list.map(d => <li>{d}</li>)}
+            {data.list.map((d, i) => <li key={i}>{d}</li>)}
           </ul>
         </div>)
       })}

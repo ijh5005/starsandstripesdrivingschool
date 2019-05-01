@@ -72,7 +72,7 @@ const Details = () => {
   return (<div id="detailsPage">
     <p className="smallTextPriceCard">Tips</p>
     {content.map((data, index) => {
-      return <Detail content={data} index={index} />
+      return <Detail key={index} content={data} index={index} />
     })}
   </div>)
 }

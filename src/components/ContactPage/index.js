@@ -12,6 +12,7 @@ const ContactPage = () => {
     <>
       {contactInfo.map((element, i) => (
         <ContactSection
+          key={i}
           title={element.title}
           text={element.text}
           img={images[i]}

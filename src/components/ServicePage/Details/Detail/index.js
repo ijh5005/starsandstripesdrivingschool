@@ -3,15 +3,15 @@ import "./index.css";
 
 const Detail = ({content, index}) => {
   const order = (index % 2 === 0);
-  // <p>{content.tipsHeading}</p>
   const text = (<div className="detailSide">
-    <ul>
-      {content.tips.map(data => {
-        return <li>{data}</li>
+    <p className="detailsHeading">{content.tipsHeading}</p>
+    <div className="contentText">
+      {content.tips.map((data, index) => {
+        return <p key={index} className="detailSideLi">{data}</p>
       })}
-    </ul>
+    </div>
   </div>);
-  const img = (<div class="detailSide img">
+  const img = (<div class="detailSide detailSideImg img">
     <img className="detailImg" src={content.img}/>
   </div>)
   return (<div className="detailComponent">
