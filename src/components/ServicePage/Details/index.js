@@ -45,7 +45,6 @@ const content = [
     text: "tips...",
     tipsHeading: "Driving during the night",
     tips: [
-      "It is necessary to drive slowly when taking angles in snowy situations and must drive quickly below the actual, maximum speed to get a safe drive.",
       "Do not pass other cars at high speed.",
       "Monitor slippery roads. Slippery roads can lead to vehicle collisions.",
       "Pay attention to warning signs placed in deep drift areas to ensure safety.",
@@ -61,7 +60,6 @@ const content = [
       "It is necessary to drive slowly when taking angles in snowy situations and must drive quickly below the actual, maximum speed to get a safe drive.",
       "Do not exceed other cars at high speed.",
       "Monitor slippery roads. Slippery roads can lead to vehicle collisions.",
-      "Attention should be paid to some warning signs placed in deep drift areas to ensure safety.",
       "Take time to stop.",
       "The use of car lights in driving makes driving safe."
     ]
