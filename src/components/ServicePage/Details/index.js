@@ -13,7 +13,7 @@ import "./index.css";
 
 const content = [
   {
-    img: img1,
+    img: img8,
     text: "tips...",
     tipsHeading: "Driving During Snow",
     tips: [
@@ -26,7 +26,7 @@ const content = [
     ]
   },
   {
-    img: img7,
+    img: img1,
     text: "tips...",
     tipsHeading: "Driving during the rain",
     tips: [
@@ -41,27 +41,29 @@ const content = [
     ]
   },
   {
-    img: img8,
+    img: img7,
     text: "tips...",
     tipsHeading: "Driving during the night",
     tips: [
-      "Do not pass other cars at high speed.",
-      "Monitor slippery roads. Slippery roads can lead to vehicle collisions.",
-      "Pay attention to warning signs placed in deep drift areas to ensure safety.",
-      "Take time to stop.",
-      "The use of car lights in driving makes driving safe."
+      "Start by revealing the lights of the car before driving at night.",
+      "When the sun begins to fall, you must ignite the lights of the cars.",
+      "Slow down the speed to control all the risks surrounding your snap",
+      "Increase your caution.",
+      "When feeling tired stop driving and take a break",
+      "Give signals in case of high light."
     ]
   },
   {
     img: img9,
     text: "tips...",
-    tipsHeading: "Driving During Snow",
+    tipsHeading: "Driving During Fog",
     tips: [
-      "It is necessary to drive slowly when taking angles in snowy situations and must drive quickly below the actual, maximum speed to get a safe drive.",
-      "Do not exceed other cars at high speed.",
-      "Monitor slippery roads. Slippery roads can lead to vehicle collisions.",
-      "Take time to stop.",
-      "The use of car lights in driving makes driving safe."
+      "Relieve speed as much as possible",
+      "Use fog lighting",
+      "Open the window a bit so you can hear anyone warning you.",
+      "Turn on car heating.",
+      "Avoid changing paths",
+      "Drive in slow paths."
     ]
   }
 ]
