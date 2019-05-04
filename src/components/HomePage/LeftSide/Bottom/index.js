@@ -17,7 +17,7 @@ const Bottom = () => {
       </a>
       <Link to={'/page/service'}>
         <div id="startBtn">
-            <p>Search</p>
+            <p>Services</p>
         </div>
       </Link>
     </div>
