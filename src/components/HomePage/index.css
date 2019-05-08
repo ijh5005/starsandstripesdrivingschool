@@ -9,6 +9,15 @@
   font-size: 2em;
 }
 
+.homeImg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60em;
+  z-index: 0;
+  opacity: 0.2;
+}
+
 /***************************/
 /* media queries */
 /***************************/

@@ -117,7 +117,9 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
+ .letter {
+   display: none;
+ }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
