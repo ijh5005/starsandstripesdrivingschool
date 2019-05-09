@@ -2,7 +2,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: auto;
+}
+
+.contactImg {
 	height: 90vh;
+	width: 40em;
+  width: 100% !important;
 }
 
 .left {
@@ -10,8 +16,6 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin: 4em;
-	margin-top: 0;
 }
 
 .right {
@@ -38,9 +42,8 @@
 
 .description {
 	font-size: 1.3em;
-	margin-left: 16%;
 	text-align: -webkit-left;
-	width: 80%;
+	width: 22em;
 }
 
 .header {
@@ -62,15 +65,18 @@
 .schedule{
 	color:#a61d55;
 	text-align:center;
-	font-size:2.5em;
-	font-weight:900;
+	font-size:2em;
+	font-weight:100;
 }
 
-.details{
-	font-size: 1.26vw;
+.left .details {
 	line-height: 1.5;
 	color: #a61d55;
 	line-height: 1.5;
+	font-size: 2em;
+	font-weight: 900;
+	width: 13em;
+	margin: 0;
 }
 
 /***************************/
@@ -80,7 +86,6 @@
 @media only screen and (max-width: 600px) {
 	.details{
 		font-size:12px;
-		
 	}
 
 }
@@ -91,16 +96,14 @@
 		width: 90%;
 		margin-left: 0;
 	}
-	.container.contactHolder {
-		height: 182vh;
-		margin-bottom: 10em;
-	}
 	.details {
 		font-size: 1.5em;
 	}
 	.contactHolder div .header {
-		font-size: 2.8em; 
-    margin-top: 6em;
+		font-size: 2.8em;
+	}
+	.container.contactHolder {
+		margin-bottom: 10em;
 	}
 }
 
