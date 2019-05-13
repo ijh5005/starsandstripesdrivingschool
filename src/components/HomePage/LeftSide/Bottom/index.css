@@ -80,6 +80,18 @@ a {
   .minitext {
     width: 12em;
   }
+  #title {
+    font-size: 8vh;
+  }
+  #flag {
+    display: none;
+  }
+  #bottom {
+    height: 80vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
