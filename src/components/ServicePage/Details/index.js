@@ -15,7 +15,7 @@ const content = [
   {
     img: img8,
     text: "tips...",
-    tipsHeading: "Driving During Snow",
+    tipsHeading: "Driving In Snow",
     tips: [
       "It is necessary to drive slowly when taking angles in snowy situations and must drive quickly below the actual, maximum speed to get a safe drive.",
       "Do not exceed other cars at high speed.",
@@ -28,7 +28,7 @@ const content = [
   {
     img: img1,
     text: "tips...",
-    tipsHeading: "Driving during the rain",
+    tipsHeading: "Driving In Rain",
     tips: [
       "It is essential that students, check the tires before driving.",
       "Ensure that wipers work effectively.",
@@ -43,7 +43,7 @@ const content = [
   {
     img: img7,
     text: "tips...",
-    tipsHeading: "Driving during the night",
+    tipsHeading: "Driving At Night",
     tips: [
       "Start by revealing the lights of the car before driving at night.",
       "When the sun begins to fall, you must ignite the lights of the cars.",
@@ -56,7 +56,7 @@ const content = [
   {
     img: img9,
     text: "tips...",
-    tipsHeading: "Driving During Fog",
+    tipsHeading: "Driving In Fog",
     tips: [
       "Relieve speed as much as possible",
       "Use fog lighting",
@@ -70,7 +70,6 @@ const content = [
 
 const Details = () => {
   return (<div id="detailsPage">
-    <p className="smallTextPriceCard">Tips</p>
     {content.map((data, index) => {
       return <Detail key={index} content={data} index={index} />
     })}
