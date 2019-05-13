@@ -6,9 +6,11 @@ const Detail = ({content, index}) => {
   const text = (<div className="detailSide">
     <p className="detailsHeading">{content.tipsHeading}</p>
     <div className="contentText">
-      {content.tips.map((data, index) => {
-        return <p key={index} className="detailSideLi">{data}</p>
-      })}
+      <ul>
+        {content.tips.map((data, index) => {
+          return <li key={index} className="detailSideLi">{data}</li>
+        })}
+      </ul>
     </div>
   </div>);
   const img = (<div class="detailSide detailSideImg img">

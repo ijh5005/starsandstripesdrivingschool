@@ -28,7 +28,10 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+  .homeImg {
+    width: 100vw;
+    height: auto;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
