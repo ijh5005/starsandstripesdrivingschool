@@ -1,0 +1,51 @@
+#socialMediaBar {
+	position: fixed;
+	left: 2vw;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	width: 10vw;
+	z-index: 2;
+}
+
+a {
+	text-decoration: none;
+}
+
+#socialMediaIcons {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	width: 8vw;
+	align-items: center;
+}
+
+#socialMediaIcons > a > .fab {
+	font-size: 3rem;
+	color: #222;
+}
+
+/***************************/
+/* media queries */
+/***************************/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}

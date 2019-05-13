@@ -6,7 +6,7 @@ import ReviewPage from "./components/ReviewPage";
 import ContactPage from "./components/ContactPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import SocialMediaBar from "./components/SocialMediaBar";
 
 const App = () => {
 
@@ -21,6 +21,7 @@ const App = () => {
       <div className="App">
         <Route exact path="/" component={HomePage}/>
         <Route path="/page" component={Navbar}/>
+        <Route path="/page" component={SocialMediaBar}/>
         <Route exact path="/page/service" component={ServicePage}/>
         <Route exact path="/page/review" component={ReviewPage}/>
         <Route exact path="/page/contact" component={ContactPage}/>
