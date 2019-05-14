@@ -13,7 +13,7 @@ const Detail = ({content, index}) => {
       </ul>
     </div>
   </div>);
-  const img = (<div class="detailSide detailSideImg img">
+  const img = (<div className="detailSide detailSideImg img">
     <img className="detailImg" src={content.img}/>
   </div>)
   return (<div className="detailComponent">
