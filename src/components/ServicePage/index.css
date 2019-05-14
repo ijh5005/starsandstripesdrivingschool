@@ -24,7 +24,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   #servicesPage {
-    margin-bottom: 8em;
+    margin: 8em 0;
   }
 }
 

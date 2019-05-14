@@ -34,14 +34,14 @@
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,90,95,1) 60%);
   position: relative;
-  min-width: 24em;
+  min-width: 94vw;
 }
 
 .imgBox {
   height: 18em;
   width: 26em;
   overflow: hidden;
-  min-width: 24em;
+  min-width: 94vw;
 }
 
 .imgBox > img {
