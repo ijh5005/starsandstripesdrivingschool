@@ -34,14 +34,14 @@
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,90,95,1) 60%);
   position: relative;
-  min-width: 94vw;
+  min-width: 22em;
 }
 
 .imgBox {
   height: 18em;
   width: 26em;
   overflow: hidden;
-  min-width: 94vw;
+  min-width: 22em;
 }
 
 .imgBox > img {
@@ -106,6 +106,10 @@ li {
     height: 120%;
     width: auto;
     opacity: 1;
+  }
+  .priceCard,
+  .imgBox {
+    min-width: 94vw;
   }
 }
 
