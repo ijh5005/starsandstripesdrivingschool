@@ -38,7 +38,9 @@ a {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+	#socialMediaBar {
+		top: 0;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
