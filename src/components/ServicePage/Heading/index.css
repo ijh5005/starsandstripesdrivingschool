@@ -1,6 +1,6 @@
 .headingContainer {
   height: 50vh;
-  width: 76vw;
+  width: 60vw;
   margin: 0 auto;
   border-bottom: 1px solid #dbdbdb;
   display: flex;
@@ -51,7 +51,7 @@
   .detailSide.img {
     display: none;
   }
-  
+
   .largeText {
     font-size: 14em;
   }
