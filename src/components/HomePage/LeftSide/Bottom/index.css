@@ -9,16 +9,14 @@
   line-height: 1;
   font-size: 9vh;
   margin: 0;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .minitext {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 300;
-  margin-top: 1em;
   width: 20em;
-  line-height: 1;
-  margin: 0;
+  letter-spacing: 2px;
 }
 
 #startBtn {
@@ -29,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2.8em;
+  margin-top: 1em;
   border-radius: 0.1em;
 }
 
@@ -40,6 +38,10 @@ a {
 
 .phoneLink {
   color: #fff;
+}
+
+#bottom a.phone p {
+  margin: 0;
 }
 
 /***************************/

@@ -1,13 +1,14 @@
 .cardRow {
-  width: 80vw;
+  width: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .priceCardContainer {
-  width: 76vw;
+  width: 60vw;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -26,27 +27,28 @@
 .priceCard {
   position: relative;
   margin: 1em;
-  height: 22em;
-  width: 45%;
+  height: 18em;
+  width: 26em;
   background-color: #222;
   border-radius: 0.2em;
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,90,95,1) 60%);
   position: relative;
-  min-width: 360px;
+  min-width: 22em;
 }
 
 .imgBox {
-  height: 22em;
-  width: 45%;
+  height: 18em;
+  width: 26em;
   overflow: hidden;
+  min-width: 22em;
 }
 
 .imgBox > img {
-  width: auto;
-  height: 100%;
-  left: 0;
+  height: auto;
+  width: 100%;
   opacity: 1;
+  left: 0;
 }
 
 .cardPrice {
@@ -58,7 +60,7 @@
 
 .cardPrice p {
   color: #fff;
-  font-size: 6em;
+  font-size: 4em;
   margin: 0;
   font-weight: 800;
   line-height: 1;
@@ -99,7 +101,15 @@ li {
   }
   .imgBox img {
     position: relative;
-    left: -10em;
+    left: -6em;
+    width: auto;
+    height: 120%;
+    width: auto;
+    opacity: 1;
+  }
+  .priceCard,
+  .imgBox {
+    min-width: 94vw;
   }
 }
 

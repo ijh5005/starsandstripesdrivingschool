@@ -34,7 +34,11 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+	.prevBtn {
+		bottom: 0;
+		left: 0;
+		width: 50vw;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

@@ -24,7 +24,8 @@ a {
 
 #socialMediaIcons > a > .fab {
 	font-size: 3rem;
-	color: #222;
+  color: rgb(183, 37, 41);
+  margin: 0.4rem;
 }
 
 /***************************/
@@ -37,7 +38,12 @@ a {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+	#socialMediaBar {
+		top: 02em;
+	}
+	#socialMediaIcons {
+		flex-direction: column;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

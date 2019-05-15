@@ -1,6 +1,6 @@
 .headingContainer {
   height: 50vh;
-  width: 76vw;
+  width: 60vw;
   margin: 0 auto;
   border-bottom: 1px solid #dbdbdb;
   display: flex;
@@ -43,7 +43,10 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+  .headingContainer {
+    width: 88vw;
+    z-index: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -51,7 +54,7 @@
   .detailSide.img {
     display: none;
   }
-  
+
   .largeText {
     font-size: 14em;
   }
