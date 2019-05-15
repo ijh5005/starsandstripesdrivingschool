@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import NextBtn from "../NextBtn";
 import img from "./map.png";
-
+import ContactForm from './ContactForm'
 const ContactSection = ({ title, text }) => {
 
   useEffect(() => {
@@ -31,6 +31,7 @@ const ContactSection = ({ title, text }) => {
           id="right"
         />
       </div>
+      <ContactForm/>
       <NextBtn />
     </>
   );

@@ -1,0 +1,73 @@
+.contactform-submit{
+    z-index: 100;
+    text-decoration: none;
+    border-radius: 2px;
+    background: #ff5a5f;
+    color: #fff;
+    bottom: 2.4em;
+    height: 3.8em;
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+
+.contactform-container{
+    width:80%;
+    margin:0 auto;
+    background:url('https://www.xmple.com/wallpaper/pink-blue-gradient-linear-1920x1080-c2-add8e6-db7093-a-285-f-14.svg');
+    text-align:center;
+
+
+}
+
+input[type="text"]
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin:10px;
+    box-sizing: border-box;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+
+}
+
+input[type="text"]:focus{
+    width: 55%;
+
+}
+
+.formHeader{
+    color:white;
+    text-align:center;
+}
+
+textarea{
+  width: 50%;
+  height: 140px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin:10px;
+  overflow:hidden;
+}
+
+
+label{
+    display:block;
+    padding: 12px 12px 12px 0;
+    color:white;
+ 
+ 
+}
+
+.form-container{
+    width:100%;
+    margin:0 auto;
+}

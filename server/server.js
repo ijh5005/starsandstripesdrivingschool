@@ -22,7 +22,7 @@ let express = require('express'),
             text: `${message}`, 
             html: `<b>Name:${name}</b><br>${message}`
         };
-        
+
 
         let transport = nodemailer.createTransport({
             host: "smtp.mailtrap.io",
