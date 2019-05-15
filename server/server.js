@@ -1,46 +1,53 @@
-let express = require('express'),
-    bodyParser = require('body-parser')
-    wellknown = require('nodemailer-wellknown'),
-    nodemailer = require('nodemailer')
-    app = express(),
-    port = 5000
-
-    app.use(bodyParser.urlencoded({extended:true}))
-    app.use(bodyParser.json())
-
-    app.get('/page/contact',(req,res)=>{
-        res.send('Hello')
-    })
-    app.post('/page/contact',(req,res)=>{
-        let {name,email,phone,message} = req.body
+const express = require("express");
+const app = express();
+const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
 
 
-        let mailOptions = {
-            from: `<starsandstripes215@outlook.com>`,
-            to: 'starsandstripes215@outlook.com',
-            subject: 'New message from stars&stripes website',
-            text: `${message}`, 
-            html: `<b>Name:${name}</b><br>${message}`
-        };
+
+const PORT = 3001;
 
 
-        let transport = nodemailer.createTransport({
-            host: "smtp.mailtrap.io",
-            port: 2525,
-            auth: {
-              user: "1d504e5dcea2eb",
-              pass: "96e3ebe2d5d96f"
-            }
-          });
+app.use(bodyParser.json());
 
-      
-          transporter.sendMail(mailOptions, (error, info) => {
-            if (error) {
-              return console.log(error);
-            }
-            console.log('Message sent: %s', info.messageId);
-          });
-       
-    })
+app.use(bodyParser.urlencoded({ extended: true }));
 
-    app.listen(port,()=>console.log(`Server is running on port ${port} `))
+app.post("/mail", (req, res) => {
+
+  const {name, contact, message} = req.body;
+
+  var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'starsandstripesdriving@gmail.com',
+      pass: 'starsandstripes123'
+    }
+  });
+
+  var mailOptions = {
+    from: 'starsandstripesdriving@gmail.com',
+    to: 'starsandstripesdriving@gmail.com',
+    subject: 'Customer Request',
+    text: `
+      Hi,
+
+      My name is ${name}
+
+      ${message}
+
+      You can reach me at ${contact}
+    `
+  };
+
+  transporter.sendMail(mailOptions, function(error, info){
+    if (error) {
+      console.log(error);
+      res.json({mailSent: false})
+    } else {
+      res.json({mailSent: true})
+    }
+  });
+
+});
+
+app.listen(PORT, console.log(`app listening in port ${PORT}`))

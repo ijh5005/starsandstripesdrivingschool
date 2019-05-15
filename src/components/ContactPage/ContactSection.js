@@ -31,7 +31,9 @@ const ContactSection = ({ title, text }) => {
           id="right"
         />
       </div>
+      <div style={{position:'absolute',left:'70px',top:'110%'}}>
       <ContactForm/>
+      </div>
       <NextBtn />
     </>
   );
