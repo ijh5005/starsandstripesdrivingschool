@@ -3,10 +3,7 @@ const app = express();
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
-
-
 const PORT = process.env.PORT || 3001;
-
 
 app.use(bodyParser.json());
 
@@ -49,5 +46,10 @@ app.post("/mail", (req, res) => {
   });
 
 });
+
+if (process.env.NODE_ENV === 'production') {
+  // Serve any static files
+  app.use(express.static(path.join(__dirname, 'client/build')));
+}
 
 app.listen(PORT, console.log(`app listening in port ${PORT}`))
