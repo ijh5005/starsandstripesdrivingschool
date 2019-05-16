@@ -47,9 +47,4 @@ app.post("/mail", (req, res) => {
 
 });
 
-if (process.env.NODE_ENV === 'production') {
-  // Serve any static files
-  app.use(express.static(path.join(__dirname, 'client/build')));
-}
-
 app.listen(PORT, console.log(`app listening in port ${PORT}`))
