@@ -11,7 +11,7 @@ const Testimonial = (props) => {
         I had a refresher driving class today with my instructor from Stars and Stripes Driving School.  I can't say enough good things about my experience.</p>
       </blockquote>
     </div>
-C
+
     <div className="reviewContainer">
       <div style={{background:`url(${props.img2})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} className="profile2"> </div>
       <blockquote><p className="review2">
