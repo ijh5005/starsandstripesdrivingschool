@@ -32,7 +32,7 @@ const ContactSection = ({ title, text }) => {
         />
       </div>
       <div style={{position:'absolute',left:'70px',top:'110%'}}>
-      <ContactForm/>
+      {/*<ContactForm/>*/}
       </div>
       <NextBtn />
     </>
