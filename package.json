@@ -9,7 +9,7 @@
     "start": "concurrently \"npm run nodemon\" \"npm run client\""
   },
   "author": "",
-  "license": "ISC",
+  "license": "ISC ",
   "dependencies": {
     "body-parser": "^1.19.0",
     "concurrently": "^4.1.0",
