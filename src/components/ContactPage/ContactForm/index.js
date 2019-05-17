@@ -31,13 +31,18 @@ const ContactForm = () => {
       contact,
       message
     }
-    axios.post("https://blakioserver.herokuapp.com/mail", params)
-        .then(data => {
-          console.log(data);
-        }).catch(err => console.log(err));
-    setName("")
-    setContact("")
-    setMessage("Message sent! Thanks")
+
+    const host = "starsandstripesdriving";
+
+    axios.post("https://blakioserver.herokuapp.com/mail", {
+      params,
+      host
+    }).then(data => {
+      setName("")
+      setContact("")
+      setMessage("Message sent! Thanks")
+    }).catch(err => console.log(err));
+
   }
 
   return (<div id="contactForm">
