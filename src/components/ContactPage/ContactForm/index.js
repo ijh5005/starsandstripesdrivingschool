@@ -35,6 +35,9 @@ const ContactForm = () => {
         .then(data => {
           console.log(data);
         }).catch(err => console.log(err));
+    setName("")
+    setContact("")
+    setMessage("Message sent! Thanks")
   }
 
   return (<div id="contactForm">

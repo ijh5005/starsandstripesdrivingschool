@@ -17,7 +17,7 @@ const ContactPage = () => {
         text={element.text}
       />
     ))}
-    <ContactForm />
+    {/*<ContactForm />*/}
     <PrevBtn />
   </>);
 };
